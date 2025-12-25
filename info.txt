@@ -1,0 +1,12 @@
+Full Stack Node.js React TS NestJS Next.js Creando Proyectos
+
+Inicio: jueves 25 de diciembre
+
+DevTree - Ejecutando Código de Node y Creando el proyecto
+
+Creando nuestro Servidor en Express
+07:45
+Habilitando Modo watch en node de forma nativa o con nodemon
+06:02
+Habilitando sintaxis de ESM en proyectos Node.js
+03:11
