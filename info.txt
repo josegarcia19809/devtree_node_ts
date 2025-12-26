@@ -2,10 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Habilitando Modo watch en node de forma nativa y sintaxis de ESM
+DevTree - como añadir TypeScript a nuestro proyecto
 
-¿Qué es TypeScript? y como añadirlo a nuestro proyecto
-10:24
 Compilar código de TypeScript a JavaScript
 04:09
 Separando la creación del servidor en su propio archivo
