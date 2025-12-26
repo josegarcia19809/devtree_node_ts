@@ -2,11 +2,267 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Creando nuestro Servidor en Express
+DevTree - Habilitando Modo watch en node de forma nativa y sintaxis de ESM
 
-
-07:45
-Habilitando Modo watch en node de forma nativa o con nodemon
-06:02
-Habilitando sintaxis de ESM en proyectos Node.js
-03:11
+¿Qué es TypeScript? y como añadirlo a nuestro proyecto
+10:24
+Compilar código de TypeScript a JavaScript
+04:09
+Separando la creación del servidor en su propio archivo
+01:35
+Creando un archivo de Routing
+07:21
+Creando el Routing para Autenticación
+04:41
+Enviar distinto tipo de Peticiones con Postman o ThunderClient
+05:26
+Habilitar la lectura de datos enviados al servidor
+07:07
+¿Qué es un ORM? y sus ventajas
+02:58
+Obteniendo una instancia de MongoDB y que es Mongoose
+04:39
+Conectar a nuestra base de datos con nuestro código
+07:37
+Introducción a variables de entorno
+06:59
+Añadiendo Colors para Colores en la Terminal
+05:26
+Creando un Schema para la base de datos
+07:57
+Inferencia y Primitive Types en TypeScript
+06:36
+Types e Interfaces en TypeScript
+07:26
+Utility Types en TypeScript, Herencia y más
+11:57
+Finalizando nuestro Modelo
+07:42
+Registro nuestro primer usuario en la base de datos
+07:41
+Retornar mensajes de respuesta cuando un usuario se registra
+04:37
+Moviendo el código para registrar usuarios a una función
+03:57
+Añadiendo Types al Routing de Express
+04:23
+Evitar Usuarios Duplicados
+11:27
+Dependencias para Hashear Passwords y como elegir
+04:22
+Hashear passwords de usuarios
+08:00
+Añadiendo el Handle para las cuentas
+09:03
+Validación con Express Validator - Primeros Pasos
+10:30
+Añadiendo el resto de validación al Registro de Usuarios
+06:21
+Crear Colecciones en Postman y ThunderClient para agrupar nuestros Request
+05:44
+Primeros pasos con la Autenticación
+04:23
+Revisar si el usuario que intenta autenticar existe
+03:12
+Revisar si el password ingresado es correcto
+07:08
+¿Qué es el Middleware?
+11:00
+¿Qué es el MERN stack? y creando el proyecto
+07:14
+Instalando Tailwindcss
+04:49
+Configurando React Router para múltiples rutas
+07:47
+Navegando entre páginas con React Router
+04:01
+Creando el Layout Principal para Autenticacion (descarga materiales aqui)
+08:08
+Agregando Estilos a la Navegación
+02:18
+Añadiendo el Formulario de Registro e instalando React Hook Form
+04:42
+Añadiendo Eventos de React Hook Form y Validación
+05:02
+Mostrando los Errores de validación en el Formulario
+06:43
+Creando un Componente para mostrar errores
+10:05
+Añadiendo Reglas adicionales de Validación
+05:18
+Leyendo los valores ingresados en el Formulario
+06:28
+Enviando la Petición para registrar usuario
+05:40
+¿Qué son los CORS?
+03:49
+Habilitando CORS desde el backend
+11:06
+Añadiendo Variables de Entorno en el Cliente
+07:07
+Mostrando los mensajes del Backend en un Toast
+06:45
+Creando un Cliente de Axios para realizar peticiones a la misma URL
+03:28
+Añadiendo el Formulario y useForm
+03:46
+Mostrando los mensajes desde el backend
+03:08
+¿Qué son los JSON Web Tokens (JWT)?
+03:12
+Ajustando el Backend para permitir peticiones desde React, ThunderClient, Postma
+07:02
+Generando el JWT
+08:42
+¿Donde almacenar el JWT? Cookies o LocalStorage
+06:26
+Creando el Layout de Administración
+05:18
+Añadiendo una Navegación para Perfil y Links
+06:38
+Creando el Formulario y Diferencias entre Autenticación y Autorización
+03:23
+Creando un Endpoint en el backend para obtener el usuario Autenticado
+05:49
+Identificando el Usuario autenticado por el JWT
+11:12
+Protegiendo el Endpoint de usuario para que solo usuarios autenticados accedan
+06:30
+¿Qué es React Query o TanStack Query?
+04:25
+Primeros pasos con React Query
+04:13
+Utilizando el Hook useQuery
+05:49
+Propiedades de useQuery: data, isLoading, error, isError y más
+06:15
+Enviando la petición con el JWT en React Query
+03:38
+Añadiendo el JWT en un Interceptor de Axios
+04:18
+Proteger el Panel de Administración si un usuario no esta autenticado
+03:38
+Obteniendo la información del usuario y mostrándola en el componente
+08:18
+Trabajando con el Formulario de Edición de Perfil
+08:02
+Llenando el Formulario y reutilizando consultas con React Query
+07:16
+Validación en el Formulario de Editar Perfil
+01:37
+Creando el Endpoint en el Backend para actualizar el perfil
+05:32
+Permitir al usuario cambiar su handle
+07:11
+Escribiendo la Función en React que actualizará el Usuario
+06:14
+Actualizando la información y mostrando un Toast
+04:21
+Invalidar los datos cacheados y hacer un re-fetch con React Query
+02:28
+Primeros Pasos y Crear Cuenta en Cloudinary
+03:56
+Agregando las credenciales de Cloudinary en el backend
+02:45
+Leyendo Imágenes con Formidable
+08:02
+Subiendo imágenes en Cloudinary
+05:13
+Asignando la Imagen al Usuario Autenticado
+02:17
+Leyendo El archivo que se sube en React
+03:06
+Enviando la imagen con Axios y React Query
+07:00
+Mostrando la Información del Perfil e Imagen
+05:38
+Actualizaciones Optimistas con React Query
+05:39
+Agregando el Array de Redes Sociales
+04:52
+Mostrando el Formulario de Redes Sociales
+05:56
+Añadiendo un Switch para Habilitar y Deshabilitar Redes Sociales
+03:17
+Identificando la red social en la que estamos escribiendo.
+04:42
+Almacenando los enlaces en las redes sociales
+03:42
+Habilitando / Deshabilitando enlaces de nuestro Tree
+05:53
+Detectando si una URL es válida antes de habilitarla
+05:03
+Añadiendo links a nuestro modelo de usuarios
+06:29
+Almacenando los Enlaces en la base de datos
+08:18
+Recuperando los enlaces de la base de datos y llenando el Formulario
+05:35
+Mostrando los enlaces habilitados en nuestro perfil
+05:40
+Añadiendo CSS a los Enlaces habilitados de nuestro perfil
+04:15
+Live Preview de Redes Sociales Habilitadas / Deshabilitadas
+02:25
+Veamos como añadir el orden a nuestros enlaces de DevTree para añadir DragNDrop
+04:47
+Añadiendo un Orden a cada Enlace
+06:30
+Actualizando el Orden al habilitar y deshabilitar redes sociales
+04:09
+Evitar ID's duplicados
+07:56
+Finalizando la lógica del Orden
+07:11
+Instalando la dependencia
+03:20
+Añadiendo los Componentes Principales
+02:51
+Añadiendo la funcionalidad de Drag
+03:53
+Añadiendo la funcionalidad de Drop
+05:36
+Actualizando el Orden al soltar
+09:30
+Creando la página para Compartir tus enlaces
+02:47
+Registrando la ruta en el backend
+05:37
+Consultando la base de datos y mostrando la información
+03:49
+Consultando el Tree con React Query
+06:43
+Creando una página 404
+03:43
+Creando los Types para la página de Handle
+03:37
+Mostrando Handle, Imagen y Descripción
+02:38
+Mostrando los enlaces activos del Usuario
+08:23
+Creando la página principal y Navegaciones
+06:11
+Creando un Componente re-utilizable para el Logo y Navegaciones
+05:45
+Primeros pasos con la página principal
+03:03
+Añadiendo la imagen de fondo en el inicio
+05:19
+Añadir buscador de Handles en la página principal
+03:51
+Generando Slug en el buscador de Handles
+02:36
+Creando la ruta para revisar si el handle esta tomado o disponible
+04:00
+Añadiendo funcionalidad para ir al registro
+05:25
+Llenar el Handle desde el Home si está disponible
+02:49
+Cerrando sesión del usuario
+03:28
+Últimos ajustes
+04:31
+Deployment Frontend
+04:07
+Deployment Backend
+07:13
