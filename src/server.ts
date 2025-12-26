@@ -1,11 +1,9 @@
 import express from 'express';
+// @ts-ignore
+import router from './router.ts';
 
 const app = express();
 
-
-// Routing
-app.get('/', (req, res) => {
-    res.send("Hello World, ts !");
-})
+app.use("/", router);
 
 export default app;

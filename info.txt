@@ -2,14 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Separando la creación del servidor en su propio archivo
+DevTree - Creando un archivo de Routing
 
-Compilar código de TypeScript a JavaScript
-04:09
 
-01:35
-Creando un archivo de Routing
-07:21
 Creando el Routing para Autenticación
 04:41
 Enviar distinto tipo de Peticiones con Postman o ThunderClient
