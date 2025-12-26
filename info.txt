@@ -2,11 +2,11 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - como añadir TypeScript a nuestro proyecto
+DevTree - Separando la creación del servidor en su propio archivo
 
 Compilar código de TypeScript a JavaScript
 04:09
-Separando la creación del servidor en su propio archivo
+
 01:35
 Creando un archivo de Routing
 07:21
