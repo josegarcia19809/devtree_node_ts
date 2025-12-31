@@ -4,8 +4,8 @@ const router = Router();
 
 
 // Routing
-router.get('/', (req, res) => {
-    res.send("Hello World, ts !");
+router.post('/auth/register', (req, res) => {
+    res.send(req.body);
 })
 
 

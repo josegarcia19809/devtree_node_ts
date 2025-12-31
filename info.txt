@@ -2,15 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Creando un archivo de Routing
+DevTree - Habilitar la lectura de datos enviados al servidor
 
-
-Creando el Routing para Autenticación
-04:41
-Enviar distinto tipo de Peticiones con Postman o ThunderClient
-05:26
-Habilitar la lectura de datos enviados al servidor
-07:07
 ¿Qué es un ORM? y sus ventajas
 02:58
 Obteniendo una instancia de MongoDB y que es Mongoose
