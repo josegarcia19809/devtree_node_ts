@@ -2,9 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Conectar a MongoDB. Variables de entorno
+DevTree - Añadiendo Colors para Colores en la Terminal
 
-Añadiendo Colors para Colores en la Terminal
+
 05:26
 Creando un Schema para la base de datos
 07:57
