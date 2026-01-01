@@ -2,16 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Habilitar la lectura de datos enviados al servidor
+DevTree - Conectar a MongoDB. Variables de entorno
 
-¿Qué es un ORM? y sus ventajas
-02:58
-Obteniendo una instancia de MongoDB y que es Mongoose
-04:39
-Conectar a nuestra base de datos con nuestro código
-07:37
-Introducción a variables de entorno
-06:59
 Añadiendo Colors para Colores en la Terminal
 05:26
 Creando un Schema para la base de datos
