@@ -2,20 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Creando un Schema para la base de datos
+DevTree - Finalizando nuestro Modelo con Interface
 
-
-05:26
-
-07:57
-Inferencia y Primitive Types en TypeScript
-06:36
-Types e Interfaces en TypeScript
-07:26
-Utility Types en TypeScript, Herencia y más
-11:57
-Finalizando nuestro Modelo
-07:42
 Registro nuestro primer usuario en la base de datos
 07:41
 Retornar mensajes de respuesta cuando un usuario se registra
