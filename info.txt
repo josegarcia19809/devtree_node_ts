@@ -2,12 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Finalizando nuestro Modelo con Interface
+DevTree - Registro nuestro primer usuario en la base de datos
 
-Registro nuestro primer usuario en la base de datos
-07:41
-Retornar mensajes de respuesta cuando un usuario se registra
-04:37
 Moviendo el código para registrar usuarios a una función
 03:57
 Añadiendo Types al Routing de Express
