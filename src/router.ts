@@ -1,15 +1,12 @@
 import {Router} from "express";
-import User from "./models/User.ts";
+// @ts-ignore
+import {createAccount} from "./handlers/index.ts";
 
 const router = Router();
 
 
 // Routing
-router.post('/auth/register', async (req, res) => {
-    const user = new User(req.body);
-    await user.save();
-    res.send("Registro creado correctamente");
-})
+router.post('/auth/register', createAccount)
 
 
 export default router;

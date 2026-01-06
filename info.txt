@@ -2,12 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Registro nuestro primer usuario en la base de datos
+DevTree - Moviendo el código para registrar usuarios a una función
 
-Moviendo el código para registrar usuarios a una función
-03:57
-Añadiendo Types al Routing de Express
-04:23
 Evitar Usuarios Duplicados
 11:27
 Dependencias para Hashear Passwords y como elegir
