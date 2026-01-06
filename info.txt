@@ -2,9 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Moviendo el código para registrar usuarios a una función
+DevTree - Evitar Usuarios Duplicados
 
-Evitar Usuarios Duplicados
+
 11:27
 Dependencias para Hashear Passwords y como elegir
 04:22
