@@ -2,11 +2,11 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Añadiendo el Handle para las cuentas
+DevTree - Validación con Express Validator - Primeros Pasos
 
 
 09:03
-Validación con Express Validator - Primeros Pasos
+
 10:30
 Añadiendo el resto de validación al Registro de Usuarios
 06:21
