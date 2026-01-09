@@ -2,14 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Validación con Express Validator - Primeros Pasos
+DevTree - Añadiendo el resto de validación al Registro de Usuarios
 
-
-09:03
-
-10:30
-Añadiendo el resto de validación al Registro de Usuarios
-06:21
 Crear Colecciones en Postman y ThunderClient para agrupar nuestros Request
 05:44
 Primeros pasos con la Autenticación
