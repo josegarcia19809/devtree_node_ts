@@ -2,12 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Añadiendo el resto de validación al Registro de Usuarios
+DevTree - Primeros pasos con la Autenticación
 
-Crear Colecciones en Postman y ThunderClient para agrupar nuestros Request
-05:44
-Primeros pasos con la Autenticación
-04:23
 Revisar si el usuario que intenta autenticar existe
 03:12
 Revisar si el password ingresado es correcto
