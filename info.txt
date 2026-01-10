@@ -2,12 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Revisar si el usuario que intenta autenticar existe
+DevTree - Revisar si el password ingresado es correcto
 
-
-03:12
-Revisar si el password ingresado es correcto
-07:08
 ¿Qué es el Middleware?
 11:00
 ¿Qué es el MERN stack? y creando el proyecto
