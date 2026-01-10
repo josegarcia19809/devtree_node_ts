@@ -38,4 +38,16 @@ export const login = async (req: Request, res: Response) => {
     if (!errors.isEmpty()) {
         return res.status(400).json({errors: errors.array()});
     }
+
+    // Revisar si el usuario está registrado
+    const {email, password} = req.body;
+    const userExists = await User.findOne({email});
+
+    if (!userExists) {
+        const error = new Error("Ese usuario no existe");
+        return res.status(404).send({error: error.message});
+    }
+
+    // Comprobar el password
+
 }

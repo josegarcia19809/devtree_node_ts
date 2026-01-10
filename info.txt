@@ -2,9 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre
 
-DevTree - Primeros pasos con la Autenticación
+DevTree - Revisar si el usuario que intenta autenticar existe
 
-Revisar si el usuario que intenta autenticar existe
+
 03:12
 Revisar si el password ingresado es correcto
 07:08
