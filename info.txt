@@ -1,38 +1,11 @@
 Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
-Inicio: jueves 25 de diciembre
+Inicio: jueves 25 de diciembre 2025
 
-DevTree - Revisando errores con Middleware
+DevTree - Habilitando CORS desde el backend
 
-¿Qué es el MERN stack? y creando el proyecto
-07:14
-Instalando Tailwindcss
-04:49
-Configurando React Router para múltiples rutas
-07:47
-Navegando entre páginas con React Router
-04:01
-Creando el Layout Principal para Autenticacion (descarga materiales aqui)
-08:08
-Agregando Estilos a la Navegación
-02:18
-Añadiendo el Formulario de Registro e instalando React Hook Form
-04:42
-Añadiendo Eventos de React Hook Form y Validación
-05:02
-Mostrando los Errores de validación en el Formulario
-06:43
-Creando un Componente para mostrar errores
-10:05
-Añadiendo Reglas adicionales de Validación
-05:18
-Leyendo los valores ingresados en el Formulario
-06:28
-Enviando la Petición para registrar usuario
-05:40
-¿Qué son los CORS?
-03:49
-Habilitando CORS desde el backend
+
+
 11:06
 Añadiendo Variables de Entorno en el Cliente
 07:07

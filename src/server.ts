@@ -1,13 +1,16 @@
 import express from 'express';
 import 'dotenv/config';
+import cors from 'cors';
 
-// @ts-ignore
 import router from './router.ts';
-// @ts-ignore
 import {connectDB} from "./config/db.ts";
+import {corsConfig} from "./config/cors.ts";
 
 const app = express();
 connectDB()
+
+// Cors
+app.use(cors(corsConfig));
 
 // Leer datos de un formulario
 app.use(express.json());
