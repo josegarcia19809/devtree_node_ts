@@ -2,25 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Habilitando CORS desde el backend
+DevTree - Ajustando el Backend para permitir peticiones desde React, Postman
 
 
-
-11:06
-
-07:07
-Mostrando los mensajes del Backend en un Toast
-06:45
-Creando un Cliente de Axios para realizar peticiones a la misma URL
-03:28
-Añadiendo el Formulario y useForm
-03:46
-Mostrando los mensajes desde el backend
-03:08
-¿Qué son los JSON Web Tokens (JWT)?
-03:12
-Ajustando el Backend para permitir peticiones desde React, ThunderClient, Postma
-07:02
 Generando el JWT
 08:42
 ¿Donde almacenar el JWT? Cookies o LocalStorage

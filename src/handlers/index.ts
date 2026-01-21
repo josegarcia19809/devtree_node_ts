@@ -3,6 +3,8 @@ import {validationResult} from "express-validator";
 import slug from "slug";
 import User from "../models/User.ts";
 import {checkPassword, hashPassword} from '../utils/auth.ts';
+import {generateJWT} from "../utils/jwt.ts";
+import user from "../models/User.ts";
 
 export const createAccount = async (req: Request, res: Response) => {
 
@@ -50,5 +52,7 @@ export const login = async (req: Request, res: Response) => {
         const error = new Error("Password incorrecto");
         return res.status(404).send({error: error.message});
     }
+
+    generateJWT(user)
     res.send("Autenticado correctamente");
 }
