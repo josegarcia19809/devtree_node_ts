@@ -2,10 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Generando el JWT
+DevTree - Almacenando el JWT en LocalStorage
 
-¿Donde almacenar el JWT? Cookies o LocalStorage
-06:26
+
 Creando el Layout de Administración
 05:18
 Añadiendo una Navegación para Perfil y Links
