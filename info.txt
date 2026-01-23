@@ -2,11 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Ajustando el Backend para permitir peticiones desde React, Postman
+DevTree - Generando el JWT
 
-
-Generando el JWT
-08:42
 ¿Donde almacenar el JWT? Cookies o LocalStorage
 06:26
 Creando el Layout de Administración
