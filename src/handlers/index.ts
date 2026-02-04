@@ -58,28 +58,5 @@ export const login = async (req: Request, res: Response) => {
 }
 
 export const getUser = async (req: Request, res: Response) => {
-    const bearer = req.headers.authorization;
-    if (!bearer) {
-        const error = new Error("No autorizado");
-        return res.status(401).send({error: error.message});
-    }
-
-    const [, token] = bearer.split(' ');
-    if (!token) {
-        const error = new Error("No autorizado");
-        return res.status(401).send({error: error.message});
-    }
-    try {
-        const result = jwt.verify(token, process.env.JWT_SECRET);
-        if (typeof result === "object" && result.id) {
-            const user = await User.findById(result.id).select("-password");
-            if (!user) {
-                const error = new Error("El usuario no existe");
-                return res.status(404).send({error: error.message});
-            }
-            res.json({user});
-        }
-    } catch (error) {
-        res.status(500).json({error: "Token no válido"});
-    }
+    res.json(req.user);
 }

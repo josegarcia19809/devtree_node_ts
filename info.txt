@@ -2,9 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Identificando el Usuario autenticado por el JWT
+DevTree - Protegiendo el Endpoint de usuario para que solo usuarios autenticados accedan
 
-Protegiendo el Endpoint de usuario para que solo usuarios autenticados accedan
+
 06:30
 ¿Qué es React Query o TanStack Query?
 04:25
