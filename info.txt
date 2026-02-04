@@ -2,10 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Creando un Endpoint en el backend para obtener el usuario Autenticado
+DevTree - Identificando el Usuario autenticado por el JWT
 
-Identificando el Usuario autenticado por el JWT
-11:12
 Protegiendo el Endpoint de usuario para que solo usuarios autenticados accedan
 06:30
 ¿Qué es React Query o TanStack Query?
