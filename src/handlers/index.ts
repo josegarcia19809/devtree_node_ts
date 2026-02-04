@@ -55,3 +55,11 @@ export const login = async (req: Request, res: Response) => {
     const token = generateJWT({id: userExists._id.toString()})
     res.send(token);
 }
+
+export const getUser = async (req: Request, res: Response) => {
+    const bearer = req.headers.authorization;
+    if (!bearer) {
+        const error = new Error("No autorizado");
+        return res.status(401).send({error: error.message});
+    }
+}

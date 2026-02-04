@@ -2,17 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Almacenando el JWT en LocalStorage
+DevTree - Creando un Endpoint en el backend para obtener el usuario Autenticado
 
-
-Creando el Layout de Administración
-05:18
-Añadiendo una Navegación para Perfil y Links
-06:38
-Creando el Formulario y Diferencias entre Autenticación y Autorización
-03:23
-Creando un Endpoint en el backend para obtener el usuario Autenticado
-05:49
 Identificando el Usuario autenticado por el JWT
 11:12
 Protegiendo el Endpoint de usuario para que solo usuarios autenticados accedan
