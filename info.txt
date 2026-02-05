@@ -2,26 +2,10 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Protegiendo el Endpoint de usuario para que solo usuarios autenticados accedan
+DevTree - Trabajando con el Formulario de Edición de Perfil
 
 
-06:30
-¿Qué es React Query o TanStack Query?
-04:25
-Primeros pasos con React Query
-04:13
-Utilizando el Hook useQuery
-05:49
-Propiedades de useQuery: data, isLoading, error, isError y más
-06:15
-Enviando la petición con el JWT en React Query
-03:38
-Añadiendo el JWT en un Interceptor de Axios
-04:18
-Proteger el Panel de Administración si un usuario no esta autenticado
-03:38
-Obteniendo la información del usuario y mostrándola en el componente
-08:18
+
 Trabajando con el Formulario de Edición de Perfil
 08:02
 Llenando el Formulario y reutilizando consultas con React Query
