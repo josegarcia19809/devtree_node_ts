@@ -1,6 +1,6 @@
-import mongoose, {Schema} from "mongoose";
+import mongoose, {Schema, Document} from "mongoose";
 
-export type IUser ={
+export interface IUser extends Document {
     handle: string;
     name: string,
     email: string,

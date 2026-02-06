@@ -2,12 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Creando el Endpoint en el Backend para actualizar el perfil
+DevTree - Permitir al usuario cambiar su handle
 
-
-05:32
-Permitir al usuario cambiar su handle
-07:11
 Escribiendo la Función en React que actualizará el Usuario
 06:14
 Actualizando la información y mostrando un Toast

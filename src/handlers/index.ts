@@ -5,6 +5,7 @@ import User from "../models/User.ts";
 import {checkPassword, hashPassword} from '../utils/auth.ts';
 import {generateJWT} from "../utils/jwt.ts";
 import jwt from "jsonwebtoken";
+import user from "../models/User.ts";
 
 export const createAccount = async (req: Request, res: Response) => {
 
@@ -63,7 +64,20 @@ export const getUser = async (req: Request, res: Response) => {
 
 export const updateProfile = async (req: Request, res: Response) => {
     try{
-        console.log(req.body);
+        const {description}= req.body;
+        const handle = slug(req.body.handle, '');
+        const handleExists = await User.findOne({handle});
+        if (handleExists && handleExists.email !== req.user.email) {
+            const error = new Error("Nombre de usuario no disponible");
+            return res.status(409).send({error: error.message});
+        }
+
+        // Actualizar al usuario
+        req.user.description= description;
+        req.user.handle = handle;
+        await req.user.save();
+        res.status(200).send("Registro actualizado correctamente");
+
     }catch(e){
         const error = new Error("Hubo un error");
         return res.status(500).json({error: error.message});
