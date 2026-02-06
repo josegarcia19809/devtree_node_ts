@@ -1,6 +1,6 @@
 import {Router} from "express";
 import {body} from "express-validator";
-import {createAccount, getUser, login} from "./handlers/index.ts";
+import {createAccount, getUser, login, updateProfile} from "./handlers/index.ts";
 import {handleInputErrors} from "./middleware/validation.ts";
 import {authenticate} from "./middleware/auth.ts";
 
@@ -34,6 +34,16 @@ router.post('/auth/login',
     handleInputErrors,
     login)
 
-router.get("/user",authenticate, getUser);
+router.get("/user", authenticate, getUser);
+router.patch("/user",
+    body('handle')
+        .notEmpty()
+        .withMessage('El handle no puede ir vacío'),
+    body('description')
+        .notEmpty()
+        .withMessage('La descripción no puede ir vacía'),
+    handleInputErrors,
+    authenticate,
+    updateProfile);
 
 export default router;

@@ -2,17 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Trabajando con el Formulario de Edición de Perfil
+DevTree - Creando el Endpoint en el Backend para actualizar el perfil
 
 
-
-Trabajando con el Formulario de Edición de Perfil
-08:02
-Llenando el Formulario y reutilizando consultas con React Query
-07:16
-Validación en el Formulario de Editar Perfil
-01:37
-Creando el Endpoint en el Backend para actualizar el perfil
 05:32
 Permitir al usuario cambiar su handle
 07:11
