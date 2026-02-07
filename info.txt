@@ -2,15 +2,10 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Permitir al usuario cambiar su handle
+DevTree - Primeros Pasos y Crear Cuenta en Cloudinary
 
-Escribiendo la Función en React que actualizará el Usuario
-06:14
-Actualizando la información y mostrando un Toast
-04:21
-Invalidar los datos cacheados y hacer un re-fetch con React Query
-02:28
-Primeros Pasos y Crear Cuenta en Cloudinary
+
+
 03:56
 Agregando las credenciales de Cloudinary en el backend
 02:45
