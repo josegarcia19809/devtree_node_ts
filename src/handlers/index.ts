@@ -4,8 +4,8 @@ import slug from "slug";
 import User from "../models/User.ts";
 import {checkPassword, hashPassword} from '../utils/auth.ts';
 import {generateJWT} from "../utils/jwt.ts";
-import jwt from "jsonwebtoken";
-import user from "../models/User.ts";
+import formidable from "formidable";
+import cloudinary from "../config/cloudinary.ts";
 
 export const createAccount = async (req: Request, res: Response) => {
 
@@ -77,6 +77,21 @@ export const updateProfile = async (req: Request, res: Response) => {
         req.user.handle = handle;
         await req.user.save();
         res.status(200).send("Registro actualizado correctamente");
+
+    }catch(e){
+        const error = new Error("Hubo un error");
+        return res.status(500).json({error: error.message});
+    }
+}
+
+export const uploadImage = async (req: Request, res: Response) => {
+    const form = formidable({multiples:false});
+    form.parse(req, async (err, fields, files) => {
+        console.log(files)
+    })
+
+    try{
+        console.log("desde upload")
 
     }catch(e){
         const error = new Error("Hubo un error");
