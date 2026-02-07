@@ -6,6 +6,7 @@ import {checkPassword, hashPassword} from '../utils/auth.ts';
 import {generateJWT} from "../utils/jwt.ts";
 import formidable from "formidable";
 import cloudinary from "../config/cloudinary.ts";
+import {v4 as uuidv4} from "uuid";
 
 export const createAccount = async (req: Request, res: Response) => {
 
@@ -86,12 +87,22 @@ export const updateProfile = async (req: Request, res: Response) => {
 
 export const uploadImage = async (req: Request, res: Response) => {
     const form = formidable({multiples:false});
-    form.parse(req, async (err, fields, files) => {
-        console.log(files)
-    })
+
 
     try{
-        console.log("desde upload")
+        form.parse(req, async (err, fields, files) => {
+             cloudinary.uploader.upload(files.file[0].filepath,
+                 {public_id: uuidv4()},
+                 async function(err, result) {
+                     if (err){
+                         const error = new Error("Hubo un error al subir la imagen");
+                         return res.status(500).json({error: error.message});
+                     }
+                     if(result){
+                         console.log(result.secure_url)
+                     }
+                 })
+        })
 
     }catch(e){
         const error = new Error("Hubo un error");

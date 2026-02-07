@@ -2,17 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Leyendo Imágenes con Formidable
+DevTree - Subiendo imágenes en Cloudinary
 
-
-
-03:56
-
-02:45
-
-08:02
-Subiendo imágenes en Cloudinary
-05:13
 Asignando la Imagen al Usuario Autenticado
 02:17
 Leyendo El archivo que se sube en React
