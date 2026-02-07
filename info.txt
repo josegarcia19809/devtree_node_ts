@@ -2,12 +2,12 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Primeros Pasos y Crear Cuenta en Cloudinary
+DevTree - Agregando las credenciales de Cloudinary en el backend
 
 
 
 03:56
-Agregando las credenciales de Cloudinary en el backend
+
 02:45
 Leyendo Imágenes con Formidable
 08:02
