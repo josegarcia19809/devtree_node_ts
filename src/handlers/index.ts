@@ -64,8 +64,8 @@ export const getUser = async (req: Request, res: Response) => {
 }
 
 export const updateProfile = async (req: Request, res: Response) => {
-    try{
-        const {description}= req.body;
+    try {
+        const {description} = req.body;
         const handle = slug(req.body.handle, '');
         const handleExists = await User.findOne({handle});
         if (handleExists && handleExists.email !== req.user.email) {
@@ -74,37 +74,39 @@ export const updateProfile = async (req: Request, res: Response) => {
         }
 
         // Actualizar al usuario
-        req.user.description= description;
+        req.user.description = description;
         req.user.handle = handle;
         await req.user.save();
         res.status(200).send("Registro actualizado correctamente");
 
-    }catch(e){
+    } catch (e) {
         const error = new Error("Hubo un error");
         return res.status(500).json({error: error.message});
     }
 }
 
 export const uploadImage = async (req: Request, res: Response) => {
-    const form = formidable({multiples:false});
+    const form = formidable({multiples: false});
 
 
-    try{
+    try {
         form.parse(req, async (err, fields, files) => {
-             cloudinary.uploader.upload(files.file[0].filepath,
-                 {public_id: uuidv4()},
-                 async function(err, result) {
-                     if (err){
-                         const error = new Error("Hubo un error al subir la imagen");
-                         return res.status(500).json({error: error.message});
-                     }
-                     if(result){
-                         console.log(result.secure_url)
-                     }
-                 })
+            await cloudinary.uploader.upload(files.file[0].filepath,
+                {public_id: uuidv4()},
+                async function (err, result) {
+                    if (err) {
+                        const error = new Error("Hubo un error al subir la imagen");
+                        return res.status(500).json({error: error.message});
+                    }
+                    if (result) {
+                        req.user.image = result.secure_url;
+                        await req.user.save();
+                        res.json({image: result.secure_url});
+                    }
+                })
         })
 
-    }catch(e){
+    } catch (e) {
         const error = new Error("Hubo un error");
         return res.status(500).json({error: error.message});
     }

@@ -2,9 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Subiendo imágenes en Cloudinary
+DevTree - Asignando la Imagen al Usuario Autenticado
 
-Asignando la Imagen al Usuario Autenticado
+
 02:17
 Leyendo El archivo que se sube en React
 03:06
