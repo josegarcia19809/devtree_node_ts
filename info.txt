@@ -2,33 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Asignando la Imagen al Usuario Autenticado
+DevTree - Añadiendo links a nuestro modelo de usuarios
 
 
-02:17
-Leyendo El archivo que se sube en React
-03:06
-Enviando la imagen con Axios y React Query
-07:00
-Mostrando la Información del Perfil e Imagen
-05:38
-Actualizaciones Optimistas con React Query
-05:39
-Agregando el Array de Redes Sociales
-04:52
-Mostrando el Formulario de Redes Sociales
-05:56
-Añadiendo un Switch para Habilitar y Deshabilitar Redes Sociales
-03:17
-Identificando la red social en la que estamos escribiendo.
-04:42
-Almacenando los enlaces en las redes sociales
-03:42
-Habilitando / Deshabilitando enlaces de nuestro Tree
-05:53
-Detectando si una URL es válida antes de habilitarla
-05:03
-Añadiendo links a nuestro modelo de usuarios
 06:29
 Almacenando los Enlaces en la base de datos
 08:18
