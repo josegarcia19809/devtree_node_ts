@@ -2,12 +2,8 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Registrando la ruta en el backend
+DevTree - Consultando la base de datos y mostrando la información
 
-
-05:37
-Consultando la base de datos y mostrando la información
-03:49
 Consultando el Tree con React Query
 06:43
 Creando una página 404
