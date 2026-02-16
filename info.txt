@@ -2,43 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Añadiendo links a nuestro modelo de usuarios
+DevTree - Registrando la ruta en el backend
 
 
-06:29
-Almacenando los Enlaces en la base de datos
-08:18
-Recuperando los enlaces de la base de datos y llenando el Formulario
-05:35
-Mostrando los enlaces habilitados en nuestro perfil
-05:40
-Añadiendo CSS a los Enlaces habilitados de nuestro perfil
-04:15
-Live Preview de Redes Sociales Habilitadas / Deshabilitadas
-02:25
-Veamos como añadir el orden a nuestros enlaces de DevTree para añadir DragNDrop
-04:47
-Añadiendo un Orden a cada Enlace
-06:30
-Actualizando el Orden al habilitar y deshabilitar redes sociales
-04:09
-Evitar ID's duplicados
-07:56
-Finalizando la lógica del Orden
-07:11
-Instalando la dependencia
-03:20
-Añadiendo los Componentes Principales
-02:51
-Añadiendo la funcionalidad de Drag
-03:53
-Añadiendo la funcionalidad de Drop
-05:36
-Actualizando el Orden al soltar
-09:30
-Creando la página para Compartir tus enlaces
-02:47
-Registrando la ruta en el backend
 05:37
 Consultando la base de datos y mostrando la información
 03:49
