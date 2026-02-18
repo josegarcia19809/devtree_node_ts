@@ -121,7 +121,7 @@ export const getUserByHandle = async (req: Request, res: Response) => {
             const error = new Error("El usuario no existe");
             return res.status(404).json({error: error.message});
         }
-        res.json({user: user});
+        res.json(user);
 
     } catch (e) {
         const error = new Error("Hubo un error");

@@ -2,14 +2,9 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Consultando la base de datos y mostrando la información
+DevTree - Devolver info de la base de datos
 
-Consultando el Tree con React Query
-06:43
-Creando una página 404
-03:43
-Creando los Types para la página de Handle
-03:37
+
 Mostrando Handle, Imagen y Descripción
 02:38
 Mostrando los enlaces activos del Usuario
