@@ -2,27 +2,10 @@ Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
 
-DevTree - Devolver info de la base de datos
+Ejecutar con npm run dev:api
 
+DevTree - Creando la ruta para revisar si el handle esta tomado o disponible
 
-Mostrando Handle, Imagen y Descripción
-02:38
-Mostrando los enlaces activos del Usuario
-08:23
-Creando la página principal y Navegaciones
-06:11
-Creando un Componente re-utilizable para el Logo y Navegaciones
-05:45
-Primeros pasos con la página principal
-03:03
-Añadiendo la imagen de fondo en el inicio
-05:19
-Añadir buscador de Handles en la página principal
-03:51
-Generando Slug en el buscador de Handles
-02:36
-Creando la ruta para revisar si el handle esta tomado o disponible
-04:00
 Añadiendo funcionalidad para ir al registro
 05:25
 Llenar el Handle desde el Home si está disponible
