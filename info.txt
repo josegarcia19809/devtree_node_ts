@@ -1,20 +1,9 @@
 Full Stack Node.js React TS NestJS Next.js Creando Proyectos
 
 Inicio: jueves 25 de diciembre 2025
+Fin: miércoles 18 de febrero 2026
 
 Ejecutar con npm run dev:api
 
-DevTree - Creando la ruta para revisar si el handle esta tomado o disponible
+DevTree - Fin de proyecto
 
-Añadiendo funcionalidad para ir al registro
-05:25
-Llenar el Handle desde el Home si está disponible
-02:49
-Cerrando sesión del usuario
-03:28
-Últimos ajustes
-04:31
-Deployment Frontend
-04:07
-Deployment Backend
-07:13
